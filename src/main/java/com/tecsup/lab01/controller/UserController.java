@@ -9,4 +9,10 @@ public class UserController {
 	public String insertarnombre(String nombres) {
         return("El nombre es: "+nombres);
 	}
+	public String insertarapellido(String apellido) {
+        return("El nombre es: "+apellido);
+	}
+	public String insertaredad(int edad) {
+        return("El nombre es: "+edad);
+	}
 }
