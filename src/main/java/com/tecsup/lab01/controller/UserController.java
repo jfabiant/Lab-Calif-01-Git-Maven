@@ -10,9 +10,9 @@ public class UserController {
         return("El nombre es: "+nombres);
 	}
 	public String insertarapellido(String apellido) {
-        return("El nombre es: "+apellido);
+        return("Su apellido paterno es: "+apellido);
 	}
 	public String insertaredad(int edad) {
-        return("El nombre es: "+edad);
+        return("Su edad es: "+edad);
 	}
 }
