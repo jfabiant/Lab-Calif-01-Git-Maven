@@ -1,6 +1,10 @@
 package com.tecsup.lab01.model;
 
 public class User {
+	private String nombres;
+	private String apelldioPaterno;
+	private int edad;
+	
 	public String getNombres() {
 		return nombres;
 	}
@@ -19,8 +23,6 @@ public class User {
 	public void setEdad(int edad) {
 		this.edad = edad;
 	}
-	private String nombres;
-	private String apelldioPaterno;
-	private int edad;
+	
 
 }
